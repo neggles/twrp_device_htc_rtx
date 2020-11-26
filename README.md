@@ -1,2 +1,2 @@
-# android_device_nubia_TP1803
-For building TWRP for Nubia Mini 5G
+# android_device_htc_rtx
+For building TWRP for HTC 5G Hub
