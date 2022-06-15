@@ -1,3 +1,10 @@
-export LC_ALL=C
-export ALLOW_MISSING_DEPENDENCIES=true
-export TARGET_COMPILE_WITH_MSM_KERNEL=false
+#
+# Copyright (C) 2022 The Android Open Source Project
+# Copyright (C) 2022 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+add_lunch_combo omni_htc_rtx-user
+add_lunch_combo omni_htc_rtx-userdebug
+add_lunch_combo omni_htc_rtx-eng
