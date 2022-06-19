@@ -31,6 +31,10 @@ TARGET_OTA_ASSERT_DEVICE := htc_rtx
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := boot:0
 
+# Display
+TARGET_SCREEN_WIDTH := 1280
+TARGET_SCREEN_HEIGHT := 720
+
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
 #BOARD_RECOVERYIMAGE_PARTITION_SIZE := 100663296 # This is the maximum known partition size, but it can be higher, so we just omit it
@@ -77,7 +81,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
